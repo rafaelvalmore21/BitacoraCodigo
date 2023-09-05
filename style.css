@@ -1,0 +1,74 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --main-bg: white;
+}
+
+body {
+  margin: 0;
+}
+
+aside {
+  background-color: var(--main-bg);
+  box-shadow: 5px 1px 10px #ddd;
+  padding: 1em;
+  width: 30%;
+}
+
+aside .list {
+  list-style-type: disc;
+}
+
+aside .list li {
+  padding-bottom: 1em;
+}
+
+aside .list h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+header {
+  background-color: var(--main-bg);
+  box-shadow: 5px 1px 10px #ddd;
+  color: black;
+  height: 100px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 1em;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 1em;
+  width: 70%;
+}
+
+section {
+  padding: 1em;
+}
+
+section h2 {
+  font-size: 20px;
+}
+
+section figure {
+  text-align: center;
+}
